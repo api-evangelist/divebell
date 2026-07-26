@@ -1,0 +1,18 @@
+# Divebell
+
+> Divebell is a cloud-native data privacy and security compliance platform for discovering, classifying, and protecting sensitive data and PII across data sources. It delivers Data Discovery, Compliance Automation, DSR (data subject request) Fulfillment, and Risk Protection as a lightweight SaaS. Divebell is a portfolio company of Uncork Capital and is now part of the Exterro family, operating as Exterro Data Discovery.
+
+## About
+- [Website](https://www.divebell.com): Product overview — Discovery-Driven Compliance.
+- [Blog](https://www.divebell.com/blog): Company and product articles.
+- [Application Login](https://app.divebell.com): The Divebell / Exterro Data Discovery application.
+- [Status](https://status.divebell.com): Exterro Data Discovery service status (Atlassian Statuspage).
+
+## Products
+- Data Discovery: intelligent data scanning, data classification, data mapping, access management.
+- Compliance Automation: risk assessment, data retention, regulatory compliance.
+- DSR Fulfillment: data subject request workflows, subject mapping, automated retrieval.
+- Risk Protection: policy engine, Risk Sonar, remediation actions.
+
+## Notes
+- No public developer API, OpenAPI specification, or developer documentation was found (2026-07-18); Divebell is delivered as a SaaS product without a published public API program.

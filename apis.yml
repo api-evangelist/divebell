@@ -1,7 +1,31 @@
 aid: divebell
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/divebell.png
 name: Divebell
-description: Divebell is a company surfaced as a portfolio company of uncork-capital and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Divebell is a cloud-native data privacy and security compliance platform that
+  helps organizations discover, classify, and protect sensitive data and
+  personally identifiable information (PII) across their data sources. The
+  platform pairs continuous, intelligent data scanning with "Deep Automation"
+  to deliver four capability areas: Data Discovery (data classification, data
+  mapping, and access management), Compliance Automation (risk assessment, data
+  retention, and regulatory compliance), DSR Fulfillment (data subject request
+  workflows, subject mapping, and automated retrieval), and Risk Protection (a
+  policy engine, "Risk Sonar," and remediation actions). Delivered as a
+  lightweight modern SaaS with private data processing, Divebell protects
+  customer data across sources such as Snowflake and AWS. Divebell was surfaced
+  as a portfolio company of Uncork Capital and is now part of the Exterro family,
+  operating as Exterro Data Discovery.
 url: https://raw.githubusercontent.com/api-evangelist/divebell/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +33,47 @@ x-backed-by:
 - uncork-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-acquired-by: exterro
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Data Privacy
+- Data Discovery
+- Data Classification
+- PII
+- Compliance
+- Data Subject Requests
+- Risk Management
+- Data Security
+- Data Governance
 apis: []
+common:
+- type: DomainSecurity
+  url: security/divebell-domain-security.yml
+- type: Website
+  url: https://www.divebell.com
+  name: Divebell Website
+- type: Blog
+  url: https://www.divebell.com/blog
+  name: Divebell Blog
+- type: StatusPage
+  url: https://status.divebell.com
+  name: Exterro Data Discovery Status (Divebell)
+- type: Login
+  url: https://app.divebell.com
+  name: Divebell Application Login
+- type: LLMsTxt
+  url: llms/divebell-llms.txt
+  name: llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
